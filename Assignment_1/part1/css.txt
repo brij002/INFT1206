@@ -15,7 +15,11 @@ h2 {
   font-size: 1.3em;
 }
 
-p,ul,ol,dl,address {
+p,
+ul,
+ol,
+dl,
+address {
   font-size: 1.1em;
 }
 
