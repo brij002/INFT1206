@@ -45,14 +45,83 @@ header, footer {
 
 /* WRITE YOUR CODE BELOW HERE  edit one*/
 
-h1{
-  font-size: 3rem;
+@font-face {
+  font-family: 'CustomFont';
+  src: url('PTSans-BoldItalic.ttf') format('truetype');
 }
 
-h2{
-  font-size: 2rem;
+@font-face {
+  font-family: 'Customfont';
+  src: url('PTSerif-Italic.ttf') format('truetype');
 }
-p{
-  font-size: 1em;
-  line-height: 2;
+
+body {
+  font-family: 'CustomFont', serif;
+  line-height: 2.3;
+  letter-spacing: 0.05em;
+  word-spacing: 0.1em
 }
+header, section, aside, nav, footer {
+
+  font-size: 1.4rem;
+}
+h1,h2{font-family: 'CustomFont', sans-serif;
+  letter-spacing: 0.1em;}
+
+  p{text-indent: 20px;
+}
+
+a.ex1:hover, a.ex1:active {color: red;}
+a.ex1:visited, a.ex1:link {text-decoration: purple;}
+a.ex1:hover, a.ex1:active {text-decoration: none;}
+a.ex1:focus { outline: none;}
+a.ex1:active{ color: #ff0000; 
+  background-color: lightgreen;}
+
+  a.ex1::after {
+    content: url('external-link-52.png'); 
+  
+    
+  }
+
+  a.ex2{a.ex2:focus { outline: none;}
+  a.ex2:active{ color: #ff0000; 
+    background-color: lightgreen;}
+    a.ex1:focus { outline: none;}}
+
+    ul {
+      list-style: none; 
+    }
+    
+  
+    navbar {
+      background-color: #333;
+      overflow: hidden;
+    }
+    
+    navbar ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    
+    navbar li {
+      display: inline-block;
+    }
+    
+    navbar a {
+      display: block;
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+    }
+    
+    navbar a:hover {
+      background-color: #555;
+    }
+    
+  navbar a:focus,
+    navbar a.active {
+      background-color: #777;
+    }
