@@ -3,3 +3,31 @@ html {
 }
 
 /* Your CSS below here */
+
+div {
+  width: 200px; 
+  height: 200px; 
+}
+
+  div{
+  align-items: center;
+  display: flex;
+  font-size: 1.094rem; /*used px to rem convertor to count rem*/ 
+  background-color: red;
+}
+
+  div{
+  margin: 0 auto;
+  color: #ffffff;
+  justify-content: center;
+  text-align: center;
+}
+
+div{
+  text-shadow: 1px 1px 0 #000;
+  border-radius: 8px; 
+    border: 1px solid red; 
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2), 
+                inset 2px 2px 5px rgba(255, 255, 255, 0.5), 
+                inset -2px -2px 5px rgba(0, 0, 0, 0.5);
+}
